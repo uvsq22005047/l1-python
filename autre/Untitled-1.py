@@ -1,10 +1,3 @@
-from tkinter import*
+a = 13
 
-Menu = Tk()
-Menu.geometry("300x400")
-Menu.title("Mon espace de travail")
-
-Bio = Button(side=BOTTOM)
-Bio.pack()
-
-Menu.mainloop()
+print(len(a))
